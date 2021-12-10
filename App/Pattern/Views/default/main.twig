@@ -1,0 +1,12 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+    <h1>{{ lang.title }}</h1>
+    <p>{{ lang.name }}</p>
+    <br>
+    <br>
+    <form method="post" action="/prova">
+        <input type="text" name="prova">
+        <button type="submit">Ciao</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{
+    "name": "vale/qubit",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kaost Dev",
+            "email": "kaostminecraft@outlook.it"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0",
+        "pecee/simple-router": "4.2.0.6",
+        "clancats/hydrahon": "dev-master"
+    }
+}
